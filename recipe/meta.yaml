@@ -1,5 +1,5 @@
 {% set name = "google-cloud-os-login" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3926c9f60fb488f4470fdecf642b18de5d0fee568a4122028b652a38fa60ce6c
+  sha256: a67a5aa8f556fc20d3dc680be3a1d6fd57010161be8da1378868da41ceb70687
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.22.2,<3.0.0dev
+    - google-api-core-grpc >=1.26.0,<3.0.0dev
     - libcst >=0.2.5
     - packaging >=14.3
     - proto-plus >=1.4.0
