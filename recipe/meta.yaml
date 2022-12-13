@@ -1,5 +1,5 @@
 {% set name = "google-cloud-os-login" %}
-{% set version = "2.7.4" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-os-login-{{ version }}.tar.gz
-  sha256: 9b6a1b6e81965d8ab37efce119ae21aae7d9af517ab7f42c62d7f2005e288e32
+  sha256: eb027188f21e69ebc2aa3ad0f2ea6658a6c80d21618432eb8d36e73e4c7dedfa
 
 build:
   number: 0
