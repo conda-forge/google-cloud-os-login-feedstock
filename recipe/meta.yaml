@@ -36,14 +36,10 @@ test:
 
 about:
   home: https://github.com/googleapis/python-oslogin
-<<<<<<< HEAD
-=======
   summary: Google Cloud Os Login API client library
->>>>>>> ac08545 (Update recipe with changes from grayskull)
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: Google Cloud OS Login API client library
   description: "Google Cloud OS Login API is a Google Cloud service that lets you manage SSH access to your instances using IAM without having to create and manage individual SSH keys. OS Login maintains a consistent Linux user identity across VM instances and is the recommended way to manage many users across multiple instances\
     \ or projects.\nSee the [quick start guide](https://googleapis.dev/python/oslogin/latest/index.html#quick-start)."
 
