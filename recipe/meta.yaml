@@ -1,5 +1,5 @@
 {% set name = "google-cloud-os-login" %}
-{% set version = "2.9.1" %}
+{% set version = "2.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-os-login-{{ version }}.tar.gz
-  sha256: 5a98f723431d33ca9a5f5b6c053a17a13eaf69c3190ef80f1b3248e1a0183236
+  sha256: 2b9917802583c8179133213b2d36485a0e275f655cfff001241bb2c2e66398df
 
 build:
   number: 0
@@ -40,8 +40,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  description: "Google Cloud OS Login API is a Google Cloud service that lets you manage SSH access to your instances using IAM without having to create and manage individual SSH keys. OS Login maintains a consistent Linux user identity across VM instances and is the recommended way to manage many users across multiple instances\
-    \ or projects.\nSee the [quick start guide](https://googleapis.dev/python/oslogin/latest/index.html#quick-start)."
+  description: "Google Cloud OS Login API is a Google Cloud service that lets you manage SSH access to your instances using IAM without having to create and manage individual SSH keys. OS Login maintains a consistent Linux user identity across VM instances and is the recommended way to manage many users across multiple instances
+    or projects.\nSee the [quick start guide](https://googleapis.dev/python/oslogin/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/oslogin/latest/index.html
   dev_url: https://github.com/googleapis/python-oslogin
