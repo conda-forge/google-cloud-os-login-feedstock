@@ -1,5 +1,5 @@
 {% set name = "google-cloud-os-login" %}
-{% set version = "2.11.0" %}
+{% set version = "2.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-os-login-{{ version }}.tar.gz
-  sha256: e3219d00b75ea44182871681985e9db3f1e38641bb84519dd85d3dbb62b97656
+  sha256: 4edeef2ce3d9686c11d7ae27a47458ca57a997996f9e4bc426927a4e9e6ba731
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.7
     - google-api-core-grpc >=1.34.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
-    - proto-plus >=1.22.0,<2.0.0dev
+    - proto-plus >=1.22.3,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
 
 test:
@@ -35,7 +35,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-oslogin
+  home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-os-login
   summary: Google Cloud Os Login API client library
   license: Apache-2.0
   license_family: Apache
