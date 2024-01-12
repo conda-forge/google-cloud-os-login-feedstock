@@ -3,7 +3,7 @@ About google-cloud-os-login-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-os-login-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-oslogin
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-os-login
 
 Package license: Apache-2.0
 
