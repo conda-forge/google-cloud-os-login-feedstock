@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Os Login API client library
 
-Development: https://github.com/googleapis/python-oslogin
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-os-login
 
 Documentation: https://googleapis.dev/python/oslogin/latest/index.html
 
