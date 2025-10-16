@@ -1,5 +1,5 @@
 {% set name = "google-cloud-os-login" %}
-{% set version = "2.17.2" %}
+{% set version = "2.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_os_login-{{ version }}.tar.gz
-  sha256: 8aec9bf2b1e5c48bc324dbd6658ec0bbc63ac2e8b31f15c508dc84f2afbe019c
+  sha256: 2c27b838ae28dc13bc0bf20b91d6311bcb161735c8c527b49a11a50905fd7c0d
 
 build:
   number: 0
@@ -20,10 +20,12 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >={{ python_min }}
+    # constraining python <3.14 until grpcio >= 1.75.1 (required upstream) is available on conda-forge
+    - python >={{ python_min }},<3.14
     - google-api-core >=1.34.1,<3.0.0,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
     - google-api-core-grpc
     - google-auth >=2.14.1,<3.0.0,!=2.24.0,!=2.25.0
+    - grpcio >=1.33.2,<2.0.0
     # more restrictive version for python 3.13
     - proto-plus >=1.25.0,<2.0.0
     - protobuf >=3.20.2,<7.0.0,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
