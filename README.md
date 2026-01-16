@@ -13,7 +13,7 @@ Development: https://github.com/googleapis/google-cloud-python/tree/main/package
 
 Documentation: https://googleapis.dev/python/oslogin/latest/index.html
 
-Google Cloud OS Login API is a Google Cloud service that lets you manage SSH access to your instances using IAM without having to create and manage individual SSH keys. OS Login maintains a consistent Linux user identity across VM instances and is the recommended way to manage many users across multiple instances or projects.
+Google Cloud OS Login API is a Google Cloud service that lets you manage SSH access to your instances using IAM without having to create and manage individual SSH keys. OS Login maintains a consistent Linux user identity across VM instances and is the recommended way to manage many users across multiple instances:: - or projects.
 See the [quick start guide](https://googleapis.dev/python/oslogin/latest/index.html#quick-start).
 
 Current build status
