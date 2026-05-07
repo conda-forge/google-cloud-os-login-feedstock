@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-os-login
-  version: "2.20.0"
+  version: "2.21.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_os_login-${{ version }}.tar.gz
-  sha256: 45ebce0303d70169d9a4ff92171584ab629578bac3b874a3c4ec359df66dcf5e
+  sha256: d0211a8920e44151daba92621e41042e0c2af5e7b428b44772d940ddbdf99b6d
 
 build:
   number: 0
